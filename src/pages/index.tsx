@@ -1,12 +1,19 @@
-import * as React from 'react';
-import Typography from '@mui/material/Typography';
+import { Container, Grid2 } from '@mui/material'
+import Typography from '@mui/material/Typography'
+import * as React from 'react'
+
+import OrdersDataGrid from '../components/OrdersDataGrid'
 
 export default function HomePage() {
-  
 
-  return (    
-      <Typography>
-        Welcome to Toolpad Core!
-      </Typography>
-  );
+  return (
+    <Container>
+      <Grid2>
+        <Typography>
+          Orders
+        </Typography>
+        <OrdersDataGrid />
+      </Grid2>
+    </Container>
+  )
 }
