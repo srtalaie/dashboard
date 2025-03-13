@@ -39,6 +39,7 @@ const YearlySalesBarChart = () => {
   return (
     <Box>
       <BarChart
+        height={354}
         dataset={dataset}
         series={[
           { dataKey: 'q1', label: 'Q1' },
