@@ -7,7 +7,7 @@ const OrdersTable = ({ data }) => {
       <Table>
         <TableHead>
           <TableRow>
-            <TableCell>Order Id</TableCell>
+            <TableCell>Order #</TableCell>
             <TableCell>Product</TableCell>
             <TableCell>Cost&nbsp;($)</TableCell>
             <TableCell>Company</TableCell>
@@ -17,8 +17,8 @@ const OrdersTable = ({ data }) => {
         </TableHead>
         <TableBody>
           {data.map((row) => (
-            <TableRow key={row.guid}>
-              <TableCell>{row.guid}</TableCell>
+            <TableRow key={row.id}>
+              <TableCell>{row.order_num}</TableCell>
               <TableCell>{row.prod}</TableCell>
               <TableCell>{row.cost}</TableCell>
               <TableCell>{row.company}</TableCell>

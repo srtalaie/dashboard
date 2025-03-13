@@ -2,7 +2,7 @@ import { Grid2, Typography } from '@mui/material'
 import * as React from 'react'
 
 import OrdersTable from '../components/OrdersTable'
-import orders from "../data/orders.json"
+import { orders } from "../data/orders.js"
 
 export default function OrdersPage() {
   return (
