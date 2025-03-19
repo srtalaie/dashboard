@@ -1,8 +1,7 @@
 import { Grid2, Typography } from '@mui/material'
 import * as React from 'react'
 
-import OrdersTable from '../components/OrdersTable'
-import { orders } from "../data/orders.js"
+import OrdersDataGrid from '../components/OrdersDataGrid'
 
 export default function OrdersPage() {
   return (
@@ -10,7 +9,7 @@ export default function OrdersPage() {
       <Typography>
         Welcome to the Toolpad orders!
       </Typography>
-      <OrdersTable data={orders} />
+      <OrdersDataGrid />
     </Grid2>
   )
 }
