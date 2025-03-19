@@ -12,6 +12,7 @@ const data = [
   { label: 'Customer Support', value: 570000, color: '#40E0D0' },
   { label: 'Legal & Compliance', value: 680000, color: '#6495ED' },
   { label: 'General & Administrative (G&A)', value: 520000, color: '#CCCCFF' },
+  { label: 'Operations & Supply Chain', value: 1550000, color: '#0000FF' },
 ]
 
 const sizing = {
