@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import App from './App'
 import Layout from './layouts/dashboard'
 import DashboardPage from './pages'
+import Budget from './pages/budget'
 import OrdersPage from './pages/orders'
 import Quarterly from './pages/quarterly'
 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
           {
             path: 'quarterly',
             Component: Quarterly,
+          },
+          {
+            path: 'budget',
+            Component: Budget,
           }
         ],
       },
