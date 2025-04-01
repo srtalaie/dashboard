@@ -5,6 +5,7 @@ import App from './App'
 import Layout from './layouts/dashboard'
 import DashboardPage from './pages'
 import Budget from './pages/budget'
+import Gauge from './pages/gauge'
 import OrdersPage from './pages/orders'
 import Quarterly from './pages/quarterly'
 
@@ -32,7 +33,11 @@ const router = createBrowserRouter([
           {
             path: 'budget',
             Component: Budget,
-          }
+          },
+          {
+            path: 'gauge',
+            Component: Gauge,
+          },
         ],
       },
     ],

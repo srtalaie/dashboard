@@ -2,6 +2,7 @@ import { Container, Grid2 } from '@mui/material'
 import * as React from 'react'
 
 import BudgetPieChart from '../components/BudgetPieChart'
+import GaugeIndicator from '../components/GaugeIndicator'
 import OrdersDataGrid from '../components/OrdersDataGrid'
 import YearlySalesBarChart from '../components/YearlySalesBarChart'
 
@@ -19,8 +20,11 @@ export default function HomePage() {
           </Grid2>
         </Grid2>
         <Grid2 container direction={'row'}>
-          <Grid2>
+          <Grid2 size={6}>
             <BudgetPieChart />
+          </Grid2>
+          <Grid2 size={6}>
+            <GaugeIndicator />
           </Grid2>
         </Grid2>
       </Grid2>
